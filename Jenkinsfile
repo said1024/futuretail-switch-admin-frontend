@@ -16,7 +16,7 @@ environment {
                echo "build"
                sh "flutter --version" 
                sh "cd $WORKSPACE"
-               sf "flutter build web"     
+               sh "flutter build web"     
                  
             
             }
