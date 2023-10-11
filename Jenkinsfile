@@ -19,8 +19,7 @@ environment {
                sh "flutter clean"
                sh "flutter  pub run build_runner build -d"     
                sh "flutter  pub run build_runner build -d"     
-               sh "flutter build web --dart-define=URL_BASE=https://www.app.com/ --dart-"     
-               sh "define=WS_URL_BASE=wss://www.app.com"     
+               sh "flutter build web --dart-define=URL_BASE=https://www.app.com/ --dart-define=WS_URL_BASE=wss://www.app.com"     
             }
            
  
