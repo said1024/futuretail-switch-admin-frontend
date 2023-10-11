@@ -8,7 +8,7 @@ environment {
         stage('clonings') { 
             steps {
                echo "cloning"
-               git branch: 'main', credentialsId: 'jenkinsTest', url: 'https://github.com/Oualitsen/optidial-front.git'
+               git branch: 'main', credentialsId: '6d6b8627-3201-4abb-be36-cf0c99f80c59', url: 'git@github.com:retailapps/futuretail-switch-admin-frontend.git'
             }
         }
  stage('build web') { 
