@@ -22,6 +22,9 @@ environment {
                sh "flutter build web --dart-define=URL_BASE=https://www.app.com/ --dart-"     
                sh "define=WS_URL_BASE=wss://www.app.com"     
             }
+     step {
+         echo "after build"
+         
         }
  
     }
